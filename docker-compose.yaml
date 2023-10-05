@@ -4,9 +4,10 @@ services:
     image: my5grantester:latest
     container_name: my5grantester
     privileged: true
-    command: ./app ue
+    command: ./app load-test -n 100
     volumes:
       - ./config/tester.yaml:/workspace/my5G-RANTester/config/config.yml
+      - ./config/tester.yaml:/config/config.yml
     cap_add:
       - NET_ADMIN
     networks:

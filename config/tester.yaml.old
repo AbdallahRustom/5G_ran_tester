@@ -12,10 +12,10 @@ gnodeb:
     gnbid: "000003"
   slicesupportlist:
     sst: "01"
-    # sd: "000001"
+    sd: "000001"
   test: "test-normal-registration"
 ue:
-  msin: "0000001001"
+  msin: "1234567894"
   key: "8baf473f2f8fd09487cccbd7097c6862"
   opc: "11111111111111111111111111111111"
   amf: "8000"
@@ -26,7 +26,7 @@ ue:
     mnc: "01"
   snssai:
     sst: 1
-    # sd: "000001"
+    sd: "000001"
   integrity:
     nia0: false
     nia1: false
